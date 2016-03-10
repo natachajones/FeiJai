@@ -1,13 +1,23 @@
 header {
       text-align: center;
-      background: url("http://i.imgur.com/Zu2Y9iz.jpg");
+      background: url("file://C:/Users/User/OneDrive/Documents/coding_course/first_site/illustrations/Sam-and-Pete.jpg");
       background-size: cover;
       color: black;
+      border: 72px 0px 0px 0px;
     }
     .navbar-brand {
       font-size: 22px;
       color: #fff;
       font-family: helvetica;
+      display: inline;
+      float: left;
+      height: 50px;
+      padding: 15px 15px;
+      font-size: 22px;
+      line-height: 20px;
+    }
+    #navbar {
+      background color: rgba(0,0,0,0,0.5);
     }
     a {
       font-size: 20px;
@@ -28,13 +38,13 @@ header {
     img {
       width: 200px;
       height: 200px;
-      margin: 40px 0px 0px 0px;
+      margin: 90px 0px 40px 0px;
       border: 7px solid white;
-      border-radius: 20px;
+      border-radius: 100px;
     }
     ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
+      font-family: helvetica;
+      font-size: 22px;
     }
     li {
       display: inline;
