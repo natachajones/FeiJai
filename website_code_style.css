@@ -1,0 +1,68 @@
+header {
+      text-align: center;
+      background: url("file://C:/Users/User/OneDrive/Documents/coding_course/first_site/illustrations/Sam-and-Pete.jpg");
+      background-size: cover;
+      color: black;
+    }
+    .navbar-brand {
+      font-size: 22px;
+      color: #fff;
+      font-family: helvetica;
+    }
+    a {
+      font-size: 20px;
+      font-family: helvetica;
+      color: #fff;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: helvetica;
+      color: #fff;
+      background-color: rgba(0,0,0,0.5);
+    }
+    h2 {
+      font-size: 40px;
+      font-family: helvetica;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      color: white;
+    }
+    article {
+      font-family: helvetica;
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    button {
+      border: 0px;
+      padding: 1px;
+      margin: 0px;
+      font-family: helvetica;
+      font-size: 10px;
+      background: rgba(200, 0, 255, 0.5);
+      cursor: pointer;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
