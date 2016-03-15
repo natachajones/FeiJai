@@ -49,20 +49,23 @@
     <img id="avatar" src="http://i.imgur.com/AIGg24E.jpg">
   </header>
 
-  <article>
- <div class="floated_img">
-    <img src="http://i.imgur.com/DPq3IAJ.jpg" alt="Spiraling">
-    <p>Spiraling</p>
+<div class="table-responsive">
+  <div class="img-responsive">
+  <table class="table">
+      <tr>
+        <td><img src="http://i.imgur.com/DPq3IAJ.jpg" alt="Spiraling" class="img-thumbnail"></td>
+        <td><img src="http://i.imgur.com/2J6Qmqz.jpg" alt="Barely Float" class="img-thumbnail"></td>
+      </tr>
+  </table>
+  </div>
 </div>
-<div class="floated_img">
-    <img src="http://i.imgur.com/2J6Qmqz.jpg" alt="Barely Float">
-    <p>Barely Float</p>
-</div>
+
 <div id='social-buttons'>
       <button class='btn btn-twitter btn-lg'>Twitter</button>
       <button class='btn btn-facebook btn-lg'>Facebook</button>
       <button class='btn btn-tumblr btn-lg'>Tumblr</button>
 </div>
+
   <script>
     $("button").on("click", function() {
       alert("Clicked!");
