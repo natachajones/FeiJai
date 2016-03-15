@@ -1,44 +1,14 @@
 header {
       text-align: center;
-      background: url("http://i.imgur.com/Zu2Y9iz.jpg");
+      /*background: url("http://i.imgur.com/Zu2Y9iz.jpg");*/
       background-size: cover;
       color: black;
-      border: 72px 0px 0px 0px;
+      border: 60px 0px 0px 0px;
     }
-    .navbar-brand {
-      font-size: 22px;
-      font-family: helvetica;
-      display: inline;
-      float: left;
-      height: 50px;
-      padding: 15px 15px;
-      font-size: 22px;
-      line-height: 20px;
-    }
-    #navbar {
-      background color: rgba(0,0,0,0,0.5);
-    }
-    a {
-      font-size: 20px;
-      font-family: helvetica;
-      color: #fff;
-      text-decoration: none;
-    }
-    h1 {
-      font-size: 70px;
-      font-family: helvetica;
-      color: #fff;
-      background-color: rgba(0,0,0,0.5);
-    }
-    h2 {
-      font-size: 40px;
-      font-family: helvetica;
-    }
-    img {
+    #avatar {
       width: 200px;
       height: 200px;
       margin: 90px 0px 40px 0px;
-      border: 7px solid white;
       border-radius: 100px;
     }
     ul {
@@ -53,7 +23,7 @@ header {
     article {
       font-family: helvetica;
       max-width: 500px;
-      padding: 20px;
+      padding: 0px;
       margin: 0 auto;
     }
     button {
@@ -74,4 +44,22 @@ header {
         padding: 5px;
         display: block;
       }
+    }
+    body{
+  padding-top: 0px;
+}
+    #social-buttons button {
+      color:white;
+    }
+    .btn-twitter {
+      background-color:#00acee;
+      border-color:#009ad5;
+    }
+    .btn-facebook{
+      background-color:#4868ac;
+      border-color:#314776;
+    }
+    .btn-tumblr {
+      background-color:#35465c;
+      border-color:#35465c;
     }
