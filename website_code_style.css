@@ -5,7 +5,7 @@ header {
       color: black;
       border: 60px 0px 0px 0px;
     }
-    #avatar {
+    img#avatar {
       width: 200px;
       height: 200px;
       margin: 90px 0px 40px 0px;
@@ -19,12 +19,6 @@ header {
       display: inline;
       padding: 0px 10px 0px 10px;
       color: white;
-    }
-    article {
-      font-family: helvetica;
-      max-width: 500px;
-      padding: 0px;
-      margin: 0 auto;
     }
     button {
       border: 0px;
