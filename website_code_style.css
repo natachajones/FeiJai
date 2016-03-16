@@ -1,9 +1,13 @@
 header {
       text-align: center;
-      /*background: url("http://i.imgur.com/Zu2Y9iz.jpg");*/
+      background: url("http://i.imgur.com/y04DAOp.jpg");
       background-size: cover;
       color: black;
       border: 60px 0px 0px 0px;
+      padding-bottom: 10px;
+    }
+    #navbar-brand {
+      font-size: 22px;
     }
     img#avatar {
       width: 200px;
@@ -13,12 +17,17 @@ header {
     }
     ul {
       font-family: helvetica;
-      font-size: 22px;
+      font-size: 19px;
     }
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
       color: white;
+    }
+    /* Trying to work out how to set the column widths and row heights to 300px so all the images are the same size*/
+    img#thumbnail {
+      width: 300px;
+      height: 400px;
     }
     button {
       border: 0px;
@@ -41,9 +50,12 @@ header {
     }
     body{
   padding-top: 0px;
+  font-size: 22px;
 }
     #social-buttons button {
-      color:white;
+      color: white;
+      margin: auto;
+      padding: 1px 1px 1px 1px;
     }
     .btn-twitter {
       background-color:#00acee;
