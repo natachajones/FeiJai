@@ -17,7 +17,7 @@ header {
     }
     ul {
       font-family: helvetica;
-      font-size: 19px;
+      font-size: 16px;
     }
     li {
       display: inline;
@@ -26,8 +26,21 @@ header {
     }
     /* Trying to work out how to set the column widths and row heights to 300px so all the images are the same size*/
     img#thumbnail {
-      width: 300px;
-      height: 400px;
+      max-width: 300px;
+      max-height: 400px;
+    }
+    div.info {
+      text-align: center;
+      padding: 20px 10px 10px 10px;
+      font-family: helvetica;
+      font-size: 24px;
+      color: black;
+    }
+    table {
+      table-layout: fixed;
+      padding: none;
+      border: 0px;
+      border-color: #fff;
     }
     button {
       border: 0px;
@@ -49,23 +62,24 @@ header {
       }
     }
     body{
-  padding-top: 0px;
-  font-size: 22px;
-}
-    #social-buttons button {
+      padding-top: 0px;
+      font-size: 22px;
+    }
+    #social-buttons {
       color: white;
       margin: auto;
       padding: 1px 1px 1px 1px;
+      text-align: center;
     }
-    .btn-twitter {
+    #twitter {
       background-color:#00acee;
       border-color:#009ad5;
     }
-    .btn-facebook{
+    #fb{
       background-color:#4868ac;
       border-color:#314776;
     }
-    .btn-tumblr {
+    #tumblr {
       background-color:#35465c;
       border-color:#35465c;
     }
